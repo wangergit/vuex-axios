@@ -20,7 +20,8 @@ export default {
       })
     },
     freshData(data){
-      console.log(data)
+      console.log(" axios success")
+      console.log(this.$store.state.global.store.storeData)
     }
 
   }
